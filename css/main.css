@@ -93,6 +93,58 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* General Styles */
+ 
+html {
+	font-size: 16px;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+ 
+ul, 
+ol {
+  color: #fff;
+  text-decoration: none;
+}
+ 
+a {
+	color: #e2e3ed;
+  text-decoration: none;
+}
+ 
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+}
+ 
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+ 
+img {
+  
+}
+ 
+figure {
+ width: 100%;
+}
+ 
+address {
+ font-family: 'Open Sans', sans-serif;
+ color: #fff;
+}
+ 
+.content-wrapper {
+ 
+}
 /*----------- Base header/footer styles ----------*/
 
 header,
@@ -475,31 +527,31 @@ aside {
 
 /* Hero */
 .hero-area h1 {
-   width: 56%;
+   width: 60%;
 }
 
 /* Aside */
 aside .content-wrapper {
-   justify-content: space-between;
+   justify-content: space-around;
 }
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-   width: 67%;
+   width: 30%;
 }
 
 /* Features */
 .features h2 {
-   width: 71%;
+   width: 70%;
 }
 
 .features article {
-   flex-basis: 200px;
+   flex-basis: 33%;
 }
 
 /* Reviews */ 
 .reviews article div {
-   width: 77%;
+   width: 42%;
 }
 
 /* ==========================================================================
@@ -507,7 +559,7 @@ About Page
 ========================================================================== */
 .mission h2,
 .contact-section .content-wrapper h2 {
-   width: 79%;
+   width: 100%;
 }
 
 .contact-section .content-wrapper h2 {
@@ -523,7 +575,7 @@ FAQ Page
 }
 
 .faq-content {
-   flex-basis: 430px;
+   flex-basis: 35%;
 }
 
 }
