@@ -156,6 +156,12 @@ footer {
 header {
   padding: 15px 0;
 }
+img {
+  width: 100%;
+}
+figure {
+  margin: 0;
+}
 /* Header styles */
 
 header .content-wrapper {
@@ -164,6 +170,13 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 .header-divider {
   background: #3a3a3a;
@@ -224,7 +237,10 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url("../img/hero-image.jpg") center no-repeat;
+  background-size: cover;
 }
+
 .hero-area h1 {
   font-size: 2.25em;
 }
@@ -266,6 +282,8 @@ input[type="button"] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url("../img/rawpixel-800820-unsplash1.jpg") center no-repeat;
+  background-size: cover;
 }
 .features h2 {
   margin-bottom: 60px;
@@ -294,7 +312,12 @@ input[type="button"] {
   justify-content: center;
   flex-flow: row wrap;
 }
-
+.reviews img {
+  width: 100%;
+}
+.reviews figure {
+  margin: 0;
+}
 .reviews h2 {
   margin-bottom: 40px;
   line-height: 1;
@@ -471,6 +494,10 @@ input[type="button"] {
   }
   header figure {
     width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
   }
   header nav {
     width: 20%;
@@ -534,7 +561,13 @@ input[type="button"] {
     width: 75%;
     margin: 0;
   }
-
+  .reviews figure {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
   /*  Footer  */
 
   footer .content-wrapper {
@@ -616,6 +649,13 @@ input[type="button"] {
   .content-wrapper {
     max-width: 960px;
   }
+  header figure {
+    width: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
   h2 {
     font-size: 2.25em;
   }
@@ -660,7 +700,13 @@ input[type="button"] {
   .reviews article div {
     width: 42%;
   }
-
+  .reviews figure {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
   /* ==========================================================================
 About Page
 ========================================================================== */
