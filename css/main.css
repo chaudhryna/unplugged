@@ -228,6 +228,12 @@ footer .social-icons p {
 footer .copyright {
   margin: 20px 0;
 }
+footer i {
+  font-size: 2em;
+  background-color: #527158;
+  padding: 15px;
+  border-radius: 50%;
+}
 
 /*----------------- Mobile Styles - Homepage-----------*/
 
